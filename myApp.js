@@ -8,7 +8,7 @@ app.use('/public',express.static(__dirname+ '/public'));
 
 app.get('/json', function(req, res){
     res.json({
-        "server": "Hello json"
+        "message": "Hello json"
     })
 })
 
